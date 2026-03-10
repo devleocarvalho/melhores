@@ -1,0 +1,12 @@
+import { MetadataRoute } from 'next'
+
+export default function robots(): MetadataRoute.Sitemap {
+  return {
+    rules: {
+      userAgent: '*',
+      allow: '/',
+      disallow: '/private/',
+    },
+    sitemap: 'https://melhores-cafeterias-2026.vercel.app/sitemap.xml',
+  }
+}
