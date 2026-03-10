@@ -9,4 +9,4 @@ export default function robots(): MetadataRoute.Sitemap {
     },
     sitemap: 'https://melhores-cafeterias-2026.vercel.app/sitemap.xml',
   }
-}
+}git
