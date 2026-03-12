@@ -76,7 +76,7 @@ export default function Page() {
           </div>
           <div className="w-64 h-64 bg-white/5 rounded-3xl backdrop-blur-sm flex items-center justify-center p-6">
              <Image 
-                src={heroProduct?.img || "/img/logo2.jpg"} 
+                src={heroProduct?.img || "/public/img/logo33.jpg"} 
                 alt={heroProduct?.nome || "Produto em Destaque"} 
                 width={250} 
                 height={250} 
