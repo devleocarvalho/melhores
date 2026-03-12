@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Sitemap {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://melhores-cafeterias-2026.vercel.app/sitemap.xml',
+    sitemap: 'https://melhoresdoano-wine.vercel.app/',
   }
 }git
