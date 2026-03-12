@@ -31,7 +31,15 @@ export default function Page() {
       {/* BARRA DE BUSCA E NAVEGAÇÃO */}
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 py-4 px-6">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="text-xl font-black tracking-tighter text-orange-600">MELHORES2026</div>
+          <div className="flex items-center">
+            <Image
+              src="/img/logo33.jpg"
+              alt="Melhores do Ano Online"
+              width={150} // Ajuste a largura conforme necessário
+              height={40} // Ajuste a altura conforme necessário
+              className="object-contain"
+            />
+          </div>
           <div className="relative w-full md:w-96">
             <input 
               type="text" 
@@ -76,7 +84,7 @@ export default function Page() {
           </div>
           <div className="w-64 h-64 bg-white/5 rounded-3xl backdrop-blur-sm flex items-center justify-center p-6">
              <Image 
-                src={heroProduct?.img || "/public/img/logo33.jpg"} 
+                src={heroProduct?.img || "/img/logo33.jpg"} 
                 alt={heroProduct?.nome || "Produto em Destaque"} 
                 width={250} 
                 height={250} 
