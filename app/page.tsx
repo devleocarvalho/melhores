@@ -1,96 +1,135 @@
 import React from 'react';
+import { Search, TrendingUp } from 'lucide-react'; // Sugestão: instalar lucide-react para ícones
+import Image from 'next/image';
+import categoriasData from '../produtos.json';
 
-const produtos = [
-  {
-    id: 'oster-touch',
-    nome: 'Oster PrimaLatte Touch Red',
-    tag: 'A Queridinha dos Brasileiros',
-    desc: 'Café expresso, latte e cappuccino com apenas um toque. O grande diferencial é o reservatório de leite de 600ml que pode ser levado à geladeira e a compatibilidade com cápsulas Nespresso®.',
-    img: '/img/oster.jpg'
-  },
-  {
-    id: 'philips-lattego',
-    nome: 'Philips Walita LatteGo 4400',
-    tag: 'Tecnologia Superautomática',
-    desc: 'Para quem busca o ápice da praticidade. Moedores 100% cerâmica e o sistema LatteGo, o mais fácil de limpar do mercado. Prepara 12 variedades de bebidas com grãos moídos na hora.',
-    img: '/img/philips.jpg'
-  },
-  {
-    id: 'philco-coffee',
-    nome: 'Philco Coffee Express 15 Bar',
-    tag: 'Melhor Custo-Benefício',
-    desc: 'A escolha ideal para quem quer um expresso de qualidade sem gastar muito. Com 15 bars de pressão, bico vaporizador para leite e acabamento em aço inox, traz durabilidade e elegância.',
-    img: '/img/philco.jpg'
-  }
-];
+interface Produto {
+  id: string;
+  nome: string;
+  badge: string;
+  desc: string;
+  img: string;
+  affiliateUrl: string;
+  categoria: string;
+}
+
+// Tipagem simples para o consumo dos dados
+// Transforma o objeto de categorias em um array compatível com o .map()
+const categorias = Object.entries(categoriasData).map(([nome, produtos]) => ({
+  nome,
+  produtos: produtos as Produto[]
+}));
+
+// Busca o produto específico para o destaque (Hero) dentro do JSON
+const heroProduct = categorias
+  .flatMap(cat => cat.produtos)
+  .find(p => p.id === 'oster-touch');
 
 export default function Page() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 selection:bg-orange-100">
-      
-      {/* HEADER: Foco em Autoridade */}
-      <header className="bg-white border-b border-gray-200 py-20 px-6">
+      {/* BARRA DE BUSCA E NAVEGAÇÃO */}
+      <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100 py-4 px-6">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="text-xl font-black tracking-tighter text-orange-600">MELHORES2026</div>
+          <div className="relative w-full md:w-96">
+            <input 
+              type="text" 
+              placeholder="O que você está procurando hoje?" 
+              className="w-full bg-gray-100 border-none rounded-full py-3 px-6 pl-12 focus:ring-2 focus:ring-orange-500 outline-none transition-all"
+            />
+            <Search className="absolute left-4 top-3.5 text-gray-400 w-5 h-5" />
+          </div>
+        </div>
+      </nav>
+
+      <header className="bg-white py-16 px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <span className="text-orange-600 font-bold tracking-widest text-sm uppercase">Análise Especializada 2026</span>
+          <span className="text-orange-600 font-bold tracking-widest text-sm uppercase">Guia de Compras Inteligente</span>
           <h1 className="text-4xl md:text-6xl font-black mt-4 mb-6 leading-tight">
-            Qual a <span className="text-orange-600">Melhor Cafeteira</span> para sua Casa?
+            Qual o <span className="text-orange-600">Melhor do Ano</span> para você e sua casa?
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto">
-            Testamos os modelos mais vendidos da Amazon Brasil para ajudar você a escolher a máquina ideal para o seu paladar e bolso.
+            Analisamos milhares de produtos para entregar apenas o que realmente vale o seu dinheiro.
           </p>
         </div>
       </header>
 
-      {/* GRID DE PRODUTOS: Foco em CTR (Clique) */}
-      <main className="max-w-6xl mx-auto py-16 px-6 grid gap-10 md:grid-cols-3">
-        {produtos.map((item) => (
-          <div key={item.id} className="group bg-white rounded-[2.5rem] border border-gray-200 shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 flex flex-col overflow-hidden">
-            <div className="p-8 flex-1">
-              <div className="bg-orange-50 text-orange-700 text-[10px] font-black uppercase px-4 py-1.5 rounded-full inline-block mb-6">
-                {item.tag}
-              </div>
-              <div className="h-60 flex items-center justify-center mb-8 bg-gray-50 rounded-2xl">
-                <img 
-                  src={item.img} 
-                  alt={item.nome} 
-                  className="max-h-[80%] object-contain group-hover:scale-110 transition-transform duration-700" 
-                />
-              </div>
-              <h2 className="text-2xl font-bold mb-4 group-hover:text-orange-600 transition-colors">{item.nome}</h2>
-              <p className="text-gray-500 text-sm leading-relaxed mb-8">
-                {item.desc}
-              </p>
+      {/* DESTAQUE PERSONALIZADO (Simulado baseado em interesse) */}
+      <section className="max-w-6xl mx-auto px-6 mb-16">
+        <div className="bg-zinc-900 rounded-[3rem] p-8 md:p-12 text-white flex flex-col md:flex-row items-center gap-10 shadow-2xl relative overflow-hidden">
+          <div className="absolute top-0 right-0 p-8 opacity-10">
+            <TrendingUp size={200} />
+          </div>
+          <div className="flex-1 z-10 text-center md:text-left">
+            <div className="bg-orange-600 text-[10px] font-bold uppercase px-3 py-1 rounded-full inline-block mb-4">Baseado no seu interesse</div>
+            <h2 className="text-3xl md:text-5xl font-black mb-4">{heroProduct?.nome || "Não perca o achado do dia!"}</h2>
+            <p className="text-gray-400 text-lg mb-8">{heroProduct?.desc || "O item que você procurou está com estoque limitado e preço reduzido."}</p>
+            <a 
+              href={heroProduct?.affiliateUrl || "https://amzn.to/3NtrnUW"} 
+              target="_blank" 
+              rel="nofollow sponsored" 
+              className="inline-block bg-white text-zinc-900 font-bold px-8 py-4 rounded-2xl hover:bg-orange-500 hover:text-white transition-all"
+            >
+              Conferir Oferta na Amazon
+            </a>
+          </div>
+          <div className="w-64 h-64 bg-white/5 rounded-3xl backdrop-blur-sm flex items-center justify-center p-6">
+             <Image 
+                src={heroProduct?.img || "/img/logo2.jpg"} 
+                alt="Destaque" 
+                width={250} 
+                height={250} 
+                className="max-h-full object-contain shadow-2xl" 
+              />
+          </div>
+        </div>
+      </section>
+
+      {/* LISTAGEM POR CATEGORIAS */}
+      <main className="max-w-6xl mx-auto pb-16 px-6">
+        {categorias.map((cat) => cat.produtos.length > 0 && (
+          <div key={cat.nome} className="mb-20">
+            <div className="flex items-center gap-4 mb-8">
+              <h2 className="text-3xl font-black tracking-tight">{cat.nome}</h2>
+              <div className="h-px bg-gray-200 flex-1"></div>
+              <span className="text-sm font-bold text-gray-400 uppercase">Top 3 Escolhas</span>
             </div>
-            
-            <div className="p-8 pt-0 mt-auto">
-              <a 
-                href={`/go/${item.id}`} 
-                target="_blank" 
-                rel="nofollow noopener"
-                className="block w-full bg-zinc-900 hover:bg-orange-600 text-white text-center font-bold py-5 rounded-2xl transition-all shadow-xl active:scale-95"
-              >
-                Ver Preço na Amazon Brasil
-                <span className="block text-[10px] font-normal opacity-60 mt-1 uppercase tracking-tighter">Clique para conferir estoque e parcelamento</span>
-              </a>
-            </div>
+
+            <div className="grid gap-8 md:grid-cols-3">
+              {cat.produtos.map((item) => (
+                <div key={item.id} className="group bg-white rounded-[2rem] border border-gray-200 shadow-sm hover:shadow-xl transition-all flex flex-col overflow-hidden">
+                  <div className="p-6 flex-1">
+                    <div className={`text-[10px] font-black uppercase px-3 py-1 rounded-full inline-block mb-4 ${
+                      item.badge === 'Melhor Preço' ? 'bg-green-100 text-green-700' : 
+                      item.badge === 'Melhor Nota' ? 'bg-blue-100 text-blue-700' : 'bg-orange-100 text-orange-700'
+                    }`}>
+                      {item.badge}
+                    </div>
+                    <div className="h-48 flex items-center justify-center mb-6">
+                      <Image 
+                        src={item.img || '/img/placeholder.jpg'} 
+                        alt={item.nome} 
+                        width={200} 
+                        height={200} 
+                        className="max-h-full object-contain group-hover:scale-105 transition-all duration-500" 
+                      />
+                    </div>
+                    <h3 className="text-xl font-bold mb-2">{item.nome}</h3>
+                    <p className="text-gray-500 text-sm">{item.desc}</p>
+                  </div>
+                  <div className="p-6 pt-0">
+                    <a href={`/go/${item.id}`} target="_blank" rel="nofollow" className="block w-full bg-zinc-100 group-hover:bg-orange-600 group-hover:text-white text-zinc-900 text-center font-bold py-4 rounded-xl transition-all">
+                      Ver Preço na Amazon
+                    </a>
+                  </div>
+                </div>
+              ))}
+              </div>
           </div>
         ))}
       </main>
 
-      {/* CONTEÚDO ADVERTORIAL: Crucial para aprovação de anúncios */}
-      <section className="max-w-3xl mx-auto px-6 py-24 border-t border-gray-100">
-        <h3 className="text-3xl font-bold mb-8 text-center">O que considerar antes de comprar?</h3>
-        <div className="space-y-6 text-gray-600 leading-relaxed text-lg">
-          <p>
-            Escolher uma cafeteira em 2026 vai além do design. Modelos como a <strong>Philips LatteGo</strong> focam em quem não quer ter trabalho com limpeza, enquanto a <strong>Oster PrimaLatte</strong> é voltada para quem gosta de versatilidade entre pó e cápsulas.
-          </p>
-          <p>
-            Nossa equipe avalia a pressão da bomba (BAR), a estabilidade da temperatura e, principalmente, o custo por xícara a longo prazo. Lembre-se: máquinas de entrada são baratas hoje, mas verifique sempre o preço dos insumos.
-          </p>
-        </div>
-      </section>
-
-      {/* FOOTER: Regras de Afiliados e Transparência */}
       <footer className="bg-white border-t border-gray-200 py-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <div className="text-2xl font-black text-gray-200 italic mb-8 uppercase tracking-tighter">Melhores Escolhas</div>

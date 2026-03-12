@@ -1,0 +1,435 @@
+{
+  "Automotivo": [
+    {
+      "id": "aspirador-wap",
+      "nome": "WAP Aspirador Automotivo Portátil",
+      "badge": "Compacto e Potente",
+      "desc": "Aspirador portátil ideal para limpeza de carros.",
+      "img": "/img/aspirador-wap.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/WAP-Aspirador-Automotivo-Port%C3%A1til-S%C3%93LIDO/dp/B0G5Z3PZPW?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=47dc4bad3fa01fc678f8afcb7488c9a7&ref_=as_li_ss_tl",
+      "categoria": "Automotivo"
+    },
+    {
+      "id": "limpa-parabrisa-luxcar",
+      "nome": "Limpa Para-Brisa Luxcar 100ml",
+      "badge": "Praticidade",
+      "desc": "Produto para limpeza eficiente de para-brisas.",
+      "img": "/img/limpa-parabrisa-luxcar.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Limpa-Para-Brisa-Luxcar-100-Ml/dp/B07VG9Q91Z?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=2c191875ebf97953a27b049f9f4b8a97&ref_=as_li_ss_tl",
+      "categoria": "Automotivo"
+    },
+    {
+      "id": "capacete-liberty",
+      "nome": "Capacete Aberto Liberty Solid Preto",
+      "badge": "Segurança e Estilo",
+      "desc": "Capacete aberto, leve e resistente.",
+      "img": "/img/capacete-liberty.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/CAPACETE-ABERTO-LIBERTY-SOLID-PRETO/dp/B07WZQC1NJ?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=19dd69a151bf2f9129a79b7773549c39&ref_=as_li_ss_tl",
+      "categoria": "Automotivo"
+    }
+  ],
+  "Bebês": [
+    {
+      "id": "fralda-huggies",
+      "nome": "Huggies Fralda Descartável Supreme Care G 160 Unidades",
+      "badge": "Conforto e Proteção",
+      "desc": "Fralda com tecnologia Xtra-Flex para maior conforto.",
+      "img": "/img/fralda-huggies.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Huggies-Descart%C3%A1vel-Tecnologia-Xtra-Flex-Unidades/dp/B0BFXKZQ2Y?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=330c9b4367da444e0c9a8311ce1acc53&ref_=as_li_ss_tl",
+      "categoria": "Bebês"
+    },
+    {
+      "id": "toalhas-mamypoko",
+      "nome": "Toalhas Umedecidas MamyPoko 400 unidades",
+      "badge": "Suavidade",
+      "desc": "Toalhas umedecidas para higiene prática e segura.",
+      "img": "/img/toalhas-mamypoko.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Toalhas-Umedecidas-MamyPoko-unidades-Branco/dp/B09BBDVPB1?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=717fe2ce01bde3b019142d59685261d1&ref_=as_li_ss_tl",
+      "categoria": "Bebês"
+    }
+  ],
+  "Beleza e Cuidados Pessoais": [
+    {
+      "id": "cicaplast-roche",
+      "nome": "La Roche-Posay Cicaplast Baume B5",
+      "badge": "Multirreparador",
+      "desc": "Cuidado calmante e reparador para pele sensível.",
+      "img": "/img/cicaplast-roche.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Roche-Posay-Cicaplast-Cuidado-Multirreparador-Calmante/dp/B072MK7BN2?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=ca26171d99eb9c9e924b2b98b2cbcb9b&ref_=as_li_ss_tl",
+      "categoria": "Beleza e Cuidados Pessoais"
+    },
+    {
+      "id": "elseve-collagen",
+      "nome": "L'Oréal Paris Elseve Collagen Leave-In",
+      "badge": "Fortalecimento",
+      "desc": "Leave-in com colágeno para cabelos mais resistentes.",
+      "img": "/img/elseve-collagen.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Leave-LOr%C3%A9al-Paris-Elseve-Collagen/dp/B0G3YGYW4Z?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=cfab48b5b7e2c08063c7b850f1cacf22&ref_=as_li_ss_tl",
+      "categoria": "Beleza e Cuidados Pessoais"
+    }
+  ],
+  "Computadores e Informática": [
+    {
+      "id": "multifuncional-epson",
+      "nome": "Multifuncional Epson EcoTank L3250",
+      "badge": "Alta Economia",
+      "desc": "Impressora multifuncional colorida com tanque de tinta.",
+      "img": "/img/multifuncional-epson.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Multifuncional-Epson-EcoTank-L3250-Colorida/dp/B098YHFT9S?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=64b7fbc3fe86773e1ddfa48dfef4f938&ref_=as_li_ss_tl",
+      "categoria": "Computadores e Informática"
+    },
+    {
+      "id": "cartucho-hp",
+      "nome": "Cartucho HP Preto Original 3YM79AB",
+      "badge": "Qualidade Garantida",
+      "desc": "Cartucho de tinta original HP para impressoras.",
+      "img": "/img/cartucho-hp.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Cartucho-HP-Preto-Original-3YM79AB/dp/B08WKPK952?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=29553d4f5a2e6ca9a72517a9562d8a97&ref_=as_li_ss_tl",
+      "categoria": "Computadores e Informática"
+    },
+    {
+      "id": "mouse-logitech",
+      "nome": "Mouse Logitech com Nanoreceptor",
+      "badge": "Confiável e Preciso",
+      "desc": "Mouse sem fio com receptor USB nano.",
+      "img": "/img/mouse-logitech.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Mouse-Nanoreceptor-Inclusa-Logitech-Mouses/dp/B074L9L5KZ?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=78662df06320f4291fe15f2e4d2adc6a&ref_=as_li_ss_tl",
+      "categoria": "Computadores e Informática"
+    },
+    {
+      "id": "kindle-16gb",
+      "nome": "Kindle 16GB Preto",
+      "badge": "Leitura Ilimitada",
+      "desc": "E-reader leve e prático com tela antirreflexo.",
+      "img": "/img/kindle-16gb.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/kindle-16gb-preto/dp/B0CP31L73X?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=bfcd288676285db9715fb39b706a618a&ref_=as_li_ss_tl",
+      "categoria": "Computadores e Informática"
+    },
+    {
+      "id": "fire-tv-stick",
+      "nome": "Fire TV Stick HD",
+      "badge": "Streaming Fácil",
+      "desc": "Transforme sua TV em Smart TV com Fire Stick.",
+      "img": "/img/fire-tv-stick.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/fire-tv-stick-hd/dp/B0CQMT33WX?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=ca0ca592c6c69da1095b6479c7167613&ref_=as_li_ss_tl",
+      "categoria": "Computadores e Informática"
+    },
+    {
+      "id": "echo-show-5",
+      "nome": "Echo Show 5 (3ª Geração)",
+      "badge": "Assistente Inteligente",
+      "desc": "Smart display com Alexa integrada.",
+      "img": "/img/echo-show-5.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Echo-Show-5-3%C2%AAgera%C3%A7%C3%A3o-Cor-Preta/dp/B09B2TSNNN?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=1e0a23e95620f67f860d644009fbb65d&ref_=as_li_ss_tl",
+      "categoria": "Computadores e Informática"
+    }
+  ],
+  "Saúde e Bem-Estar": [
+    {
+      "id": "detergente-brilhante",
+      "nome": "Brilhante Limpeza Total - Lava Roupas Líquido 3L",
+      "badge": "Saúde e Bem-Estar",
+      "desc": "Detergente líquido para roupas brancas e coloridas.",
+      "img": "/img/detergente-brilhante.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Detergente-L%C3%ADquido-Brancas-Coloridas-Brilhante/dp/B07DTN9W36?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=258a65d9866792b042e20e77ec3aa0c9&ref_=as_li_ss_tl",
+      "categoria": "Saúde e Bem-Estar"
+    },
+    {
+      "id": "omo-ultra",
+      "nome": "Omo Sabão Líquido Ultra Power 1,8L",
+      "badge": "Limpeza Profunda",
+      "desc": "Sabão líquido concentrado para limpeza intensa.",
+      "img": "/img/omo-ultra.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/OMO-Lava-Roupas-L%C3%ADquido-Ultra-Frasco/dp/B0CBCRP3BS?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=4b9900068eaab9c85e20db379fecd45b&ref_=as_li_ss_tl",
+      "categoria": "Saúde e Bem-Estar"
+    },
+    {
+      "id": "cif-cremoso",
+      "nome": "Cif Limpador Cremoso Original 500ml",
+      "badge": "Praticidade",
+      "desc": "Limpador cremoso para uso doméstico.",
+      "img": "/img/cif-cremoso.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Limpador-Cremoso-Original-500-Cif/dp/B07DTNB6SY?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=eef14ca346d5b9aa4359882304dbc0b9&ref_=as_li_ss_tl",
+      "categoria": "Saúde e Bem-Estar"
+    },
+    {
+      "id": "finish-detergente",
+      "nome": "Finish Detergente para Lava-Louças Advanced",
+      "badge": "Eficiência",
+      "desc": "Detergente líquido para máquinas de lavar louça.",
+      "img": "/img/finish-detergente.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Detergente-Para-Lou%C3%A7as-Finish-Advanced/dp/B07VRYJWPB?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=600139ea51765d19875845d1ef89b3eb&ref_=as_li_ss_tl",
+      "categoria": "Saúde e Bem-Estar"
+    },
+    {
+      "id": "percarbonato-calisul",
+      "nome": "Percarbonato Biodegradável Calisul",
+      "badge": "Sustentável",
+      "desc": "Produto biodegradável para limpeza doméstica.",
+      "img": "/img/percarbonato-calisul.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Percarbonato-Biodegrad%C3%A1vel-Coloridas-Dom%C3%A9stica-Calisul/dp/B0FWCTHSWQ?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=556047a6f6c1c7dc2ecc2a8550a8224a&ref_=as_li_ss_tl",
+      "categoria": "Saúde e Bem-Estar"
+    }
+  ],
+  "Livros": [
+    {
+      "id": "homem-rico-babilonia",
+      "nome": "O Homem Mais Rico da Babilônia",
+      "badge": "Clássico Financeiro",
+      "desc": "Livro de George S. Clason com lições sobre finanças pessoais.",
+      "img": "/img/homem-rico-babilonia.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Homem-Mais-Rico-Babil%C3%B4nia/dp/8595081530?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=daa8938c5bf9f33b27b446d63f3fc576&ref_=as_li_ss_tl",
+      "categoria": "Livros"
+    },
+    {
+      "id": "verity-colleen-hoover",
+      "nome": "Verity - Colleen Hoover",
+      "badge": "Best-seller",
+      "desc": "Thriller psicológico da autora Colleen Hoover.",
+      "img": "/img/verity-colleen-hoover.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Verity-Colleen-Hoover/dp/8501117846?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=508c72b79f978868e0a648b4b0bf0690&ref_=as_li_ss_tl",
+      "categoria": "Livros"
+    },
+    {
+      "id": "paciente-silenciosa",
+      "nome": "A Paciente Silenciosa - Alex Michaelides",
+      "badge": "Suspense",
+      "desc": "Romance de suspense psicológico sobre mistério e silêncio.",
+      "img": "/img/paciente-silenciosa.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/paciente-silenciosa-Alex-Michaelides/dp/8501116432?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=09073c353e3d18ce5c3c90a816c568bb&ref_=as_li_ss_tl",
+      "categoria": "Livros"
+    }
+  ],
+  "Games": [
+    {
+      "id": "dualSense-ps5",
+      "nome": "Controle PlayStation DualSense Sem Fio",
+      "badge": "Nova Geração",
+      "desc": "Controle oficial do PS5 com resposta tátil e gatilhos adaptáveis.",
+      "img": "/img/dualSense-ps5.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/PlayStation-DualSense-Controle-sem-fio/dp/B0CQKLS4RP?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=862a2b8d97734a7d2dfdf04d858f9af6&ref_=as_li_ss_tl",
+      "categoria": "Games"
+    },
+    {
+      "id": "headset-havit",
+      "nome": "Headphone Havit HV-H2002d com Microfone",
+      "badge": "Imersão Sonora",
+      "desc": "Headset gamer com microfone e falantes potentes.",
+      "img": "/img/headset-havit.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Headphone-Ouvido-HV-H2002d-Microfone-Falante/dp/B07Y2G7VX5?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=0eabda9b3b5ab87894a752306fdd59eb&ref_=as_li_ss_tl",
+      "categoria": "Games"
+    },
+    {
+      "id": "god-of-war-ragnarok",
+      "nome": "God of War Ragnarök - Standard Edition",
+      "badge": "Aventura Épica",
+      "desc": "Jogo exclusivo PlayStation com narrativa envolvente.",
+      "img": "/img/god-of-war-ragnarok.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/God-War-Ragnar%C3%B6k-Standard-PlayStation/dp/B0BH58QPYN?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=1e6c76cfc3a84b6694a74f5437b33036&ref_=as_li_ss_tl",
+      "categoria": "Games"
+    }
+  ],
+  "Pet Shop": [
+    {
+      "id": "bravecto-caes",
+      "nome": "Bravecto para Cães até 10kg - 250mg",
+      "badge": "Proteção Prolongada",
+      "desc": "Antiparasitário oral que protege contra pulgas e carrapatos por até 12 semanas.",
+      "img": "/img/bravecto-caes.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Bravecto-C%C3%A3es-10kg-250mg-para/dp/B07J4J9XKZ?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=ef659bf759324fd3402da9eb0faa62d8&ref_=as_li_ss_tl",
+      "categoria": "Pet Shop"
+    },
+    {
+      "id": "scalibor-coleira",
+      "nome": "Coleira Antiparasitária Scalibor 65cm",
+      "badge": "Proteção Completa",
+      "desc": "Coleira antiparasitária para cães, eficaz contra mosquitos e carrapatos.",
+      "img": "/img/scalibor-coleira.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Coleira-Antiparasit%C3%A1ria-Scalibor-65cm-para/dp/B07Y2CRBBK?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=499fee3fb40b9b0b8b665de707e22e1c&ref_=as_li_ss_tl",
+      "categoria": "Pet Shop"
+    },
+    {
+      "id": "whiskas-sache",
+      "nome": "Whiskas Sachê Ração Úmida para Gatos Adultos",
+      "badge": "Sabor Irresistível",
+      "desc": "Ração úmida em sachê para gatos adultos, sabor frango.",
+      "img": "/img/whiskas-sache.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Ra%C3%A7%C3%A3o-%C3%9Amida-Whiskas-Sach%C3%AA-Adultos/dp/B0DPXVL7LK?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=819da242cf8bb9314adfbcf01b9fd25f&ref_=as_li_ss_tl",
+      "categoria": "Pet Shop"
+    }
+  ],
+  "Eletrodomésticos": [
+    {
+      "id": "sandicheira-cadence",
+      "nome": "Sanduicheira Elétrica Cadence Click 127V",
+      "badge": "Praticidade",
+      "desc": "Sanduicheira elétrica compacta e fácil de usar.",
+      "img": "/img/sandicheira-cadence.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Sanduicheira-El%C3%A9trica-Cadence-Click-127V/dp/B0CDJ4L7CZ?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=f5b2b7862a81eb24d6ccc9dd72e5bd68&ref_=as_li_ss_tl",
+      "categoria": "Eletrodomésticos"
+    },
+    {
+      "id": "potes-electrolux",
+      "nome": "Kit Potes Herméticos Electrolux",
+      "badge": "Organização",
+      "desc": "Conjunto de potes plásticos herméticos para alimentos.",
+      "img": "/img/potes-electrolux.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Kit-Potes-Herm%C3%A9ticos-Pl%C3%A1stico-Electrolux/dp/B09XJL4B9H?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=5c3b666ce7b3c0dfeb1ba8750e55323b&ref_=as_li_ss_tl",
+      "categoria": "Eletrodomésticos"
+    },
+    {
+      "id": "potes-vidro",
+      "nome": "Potes de Vidro Retangular com Tampa Hermética",
+      "badge": "Durabilidade",
+      "desc": "Potes de vidro resistentes com tampa hermética.",
+      "img": "/img/potes-vidro.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Potes-Vidro-Retangular-Tampa-Herm%C3%A9tica/dp/B08CPW5BR2?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=c0c7183375d29dc680d11f24b1f34fb8&ref_=as_li_ss_tl",
+      "categoria": "Eletrodomésticos"
+    },
+    {
+      "id": "cooktop-elgin",
+      "nome": "Cooktop Elgin Double Portátil",
+      "badge": "Compacto",
+      "desc": "Cooktop elétrico portátil com duas bocas.",
+      "img": "/img/cooktop-elgin.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/El%C3%A9trico-Port%C3%A1til-Cooktop-Elgin-Double/dp/B0DCLXRD5X?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=e738355c662976a21803f1fd9052bd6e&ref_=as_li_ss_tl",
+      "categoria": "Eletrodomésticos"
+    },
+    {
+      "id": "depurador-suggar-prata",
+      "nome": "Suggar Depurador Slim Prata DPS161PR",
+      "badge": "Design Slim",
+      "desc": "Depurador de ar compacto para cozinha.",
+      "img": "/img/depurador-suggar-prata.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/SUGGAR-DEPURADOR-SLIM-PRATA-DPS161PR/dp/B0B3SK926K?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=56311e439bd5b23af33a1af5b7c50f03&ref_=as_li_ss_tl",
+      "categoria": "Eletrodomésticos"
+    },
+    {
+      "id": "depurador-suggar-preto",
+      "nome": "Suggar Depurador Slim Preto DPS182PT",
+      "badge": "Design Slim",
+      "desc": "Depurador de ar compacto para cozinha.",
+      "img": "/img/depurador-suggar-preto.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/SUGGAR-DEPURADOR-SLIM-PRETO-DPS182PT/dp/B0B3SJ8YLP?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=7f0bbfe99e36b6a009c35f54a24ec62c&ref_=as_li_ss_tl",
+      "categoria": "Eletrodomésticos"
+    },
+    {
+      "id": "oster-touch",
+      "nome": "Fritadeira Oster Digital Control",
+      "badge": "Destaque do Ano",
+      "desc": "A fritadeira que combina tecnologia touch com design sofisticado para sua cozinha.",
+      "img": "/img/oster-touch.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/dp/B08P2BHR6P?tag=amazonaux0f-20",
+      "categoria": "Eletrodomésticos"
+    }
+  ],
+  "Eletrônicos": [
+    {
+      "id": "iphone-16",
+      "nome": "Apple iPhone 16 128GB",
+      "badge": "Última Geração",
+      "desc": "Smartphone Apple com alto desempenho e câmera avançada.",
+      "img": "/img/iphone-16.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Apple-iPhone-16-128-GB/dp/B0DJFTCKNN?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=275c5fae236e04d265e2ea64b08b7748&ref_=as_li_ss_tl",
+      "categoria": "Eletrônicos"
+    },
+    {
+      "id": "motorola-g06",
+      "nome": "Smartphone Motorola g06 128GB",
+      "badge": "Bateria Duradoura",
+      "desc": "Smartphone com câmera versátil e bateria de longa duração.",
+      "img": "/img/motorola-g06.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Smartphone-Motorola-g06-128GB-Camera-Bateria/dp/B0FR5NSCF7?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=0dd0e89d9401c6687f39cce3af555608&ref_=as_li_ss_tl",
+      "categoria": "Eletrônicos"
+    },
+    {
+      "id": "samsung-galaxy",
+      "nome": "Samsung Galaxy 256GB 50MP",
+      "badge": "Alta Performance",
+      "desc": "Smartphone Samsung com câmera de 50MP e grande armazenamento.",
+      "img": "/img/samsung-galaxy.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Celular-Samsung-Galaxy-256GB-50MP/dp/B0FPYYNQ7Y?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=ad44ff7c9631b7c7d112700ba7cb914e&ref_=as_li_ss_tl",
+      "categoria": "Eletrônicos"
+    },
+    {
+      "id": "smartwatch-samsung",
+      "nome": "Smartwatch Samsung Galaxy Display Grafite",
+      "badge": "Tecnologia no Pulso",
+      "desc": "Relógio inteligente com monitoramento de saúde e notificações.",
+      "img": "/img/smartwatch-samsung.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Smartwatch-Samsung-Galaxy-Display-Grafite/dp/B0CVCLGV1W?th=1&linkCode=ll2&tag=amazonaux0f-20&linkId=67985bcc4402f8d009fdbda32a6781be&ref_=as_li_ss_tl",
+      "categoria": "Eletrônicos"
+    },
+    {
+      "id": "carregador-usb-c",
+      "nome": "Adaptador de Corrente USB-C 20W",
+      "badge": "Carregamento Rápido",
+      "desc": "Carregador rápido compatível with diversos aparelhos.",
+      "img": "/img/carregador-usb-c.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Adaptador-corrente-USB-C-20-W/dp/B0CX5DHV4Q?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=cc33b98113743d6c7958a6d784473a5d&ref_=as_li_ss_tl",
+      "categoria": "Eletrônicos"
+    }
+  ],
+  "Beleza Premium": [
+    {
+      "id": "lola-danos-vorazes",
+      "nome": "Lola Cosmetics Danos Vorazes Reparador",
+      "badge": "Recuperação Capilar",
+      "desc": "Tratamento reparador para cabelos danificados.",
+      "img": "/img/lola-danos-vorazes.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/DANOS-VORAZES-REPARADOR-Lola-Cosmetics/dp/B09GHN14FP?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=05ff659759cf0c3436c14e7428f31eca&ref_=as_li_ss_tl",
+      "categoria": "Beleza Premium"
+    }
+  ],
+  "Móveis e Escritório": [
+    {
+      "id": "cadeira-escritorio-healer",
+      "nome": "Healer Cadeira de Escritório Diretor Giratória",
+      "badge": "Conforto",
+      "desc": "Cadeira ergonômica giratória para escritório.",
+      "img": "/img/cadeira-healer.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Healer-Cadeira-Escrit%C3%B3rio-Diretor-Girat%C3%B3ria/dp/B0D9MSVSSP?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=79f8d76e5f18825ead0b98f6de53c8d4&ref_=as_li_ss_tl",
+      "categoria": "Móveis e Escritório"
+    },
+    {
+      "id": "suporte-notebook",
+      "nome": "Suporte Ergonômico Ajustável para Notebook",
+      "badge": "Ajustável",
+      "desc": "Suporte regulável universal para notebooks.",
+      "img": "/img/suporte-notebook.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Notebook-Ergon%C3%B4mico-Ajust%C3%A1vel-Regul%C3%A1vel-Universal/dp/B0F1C2GCK4?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=05858ef174aea7fc2b8371c9ac8b7cbb&ref_=as_li_ss_tl",
+      "categoria": "Móveis e Escritório"
+    }
+  ],
+  "CDs e Vinil": [
+    {
+      "id": "vinil-velvet-underground",
+      "nome": "The Velvet Underground & Nico - Vinil",
+      "badge": "Clássico",
+      "desc": "Álbum icônico em vinil.",
+      "img": "/img/velvet-underground.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Velvet-Underground-Nico-Vinyl/dp/B001BSH0US?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=a49840f0667452beb3c49c6988b94aa4&ref_=as_li_ss_tl",
+      "categoria": "CDs e Vinil"
+    },
+    {
+      "id": "vinil-taylor-evermore",
+      "nome": "Taylor Swift - evermore (Transparent Green 2LP)",
+      "badge": "Exclusivo",
+      "desc": "Vinil duplo transparente da Taylor Swift.",
+      "img": "/img/taylor-evermore.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/evermore-Transparent-Green-2-LP/dp/B08QFRKNNJ?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=1357164404f9dd44e30d342cd29804b1&ref_=as_li_ss_tl",
+      "categoria": "CDs e Vinil"
+    }
+  ],
+  "Ferramentas": [
+    {
+      "id": "parafusadeira-blackdecker",
+      "nome": "Parafusadeira/Furadeira Black+Decker 12V",
+      "badge": "Versatilidade",
+      "desc": "Ferramenta elétrica portátil para uso doméstico.",
+      "img": "/img/parafusadeira-blackdecker.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Parafusadeira-Furadeira-Black-Decker-12V/dp/B07F6N4X7H?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=6b7a7a9f5a7c7c9f9c8f8a7a9f5a7c7c&ref_=as_li_ss_tl",
+      "categoria": "Ferramentas"
+    }
+  ]
+}
