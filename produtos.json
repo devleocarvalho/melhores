@@ -423,13 +423,13 @@
   ],
   "Ferramentas": [
     {
-      "id": "parafusadeira-blackdecker",
-      "nome": "Parafusadeira/Furadeira Black+Decker 12V",
-      "badge": "Versatilidade",
-      "desc": "Ferramenta elétrica portátil para uso doméstico.",
-      "img": "/img/parafusadeira-blackdecker.jpg",
-      "affiliateUrl": "https://www.amazon.com.br/Parafusadeira-Furadeira-Black-Decker-12V/dp/B07F6N4X7H?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=6b7a7a9f5a7c7c9f9c8f8a7a9f5a7c7c&ref_=as_li_ss_tl",
-      "categoria": "Ferramentas"
+      "id": "chocolate-mms-amendoim",
+      "nome": "Chocolate M&M’S Amendoim 132g",
+      "badge": "Clássico",
+      "desc": "Confeitos de amendoim cobertos com chocolate ao leite e casquinha crocante colorida.",
+      "img": "/img/chocolate-mms-amendoim.jpg",
+      "affiliateUrl": "https://www.amazon.com.br/Chocolate-M-MS-Amendoim-132g/dp/B0FQW37LSV?psc=1&linkCode=ll2&tag=amazonaux0f-20&linkId=3c86f196c04dd0bdae411dafb68a68a5&ref_=as_li_ss_tl",
+      "categoria": "Alimentos e Bebidas"
     }
   ]
 }
