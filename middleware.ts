@@ -11,9 +11,9 @@ export function middleware(request: NextRequest) {
     const id = pathname.split('/').filter(Boolean).pop();
     
    
-    const produto = Object.values(produtosData)
+    const produto = (Object.values(produtosData)
       .flat()
-      .find((p: any) => p.id === id);
+      .find((p: any) => p.id === id)) as { affiliateUrl?: string } | undefined;
 
     if (produto && produto.affiliateUrl) {
     
