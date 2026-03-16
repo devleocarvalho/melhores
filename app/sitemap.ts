@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   
-  const baseUrl = 'https://melhoresdoano-wine.vercel.app/' // URL temporária, ajustar para o domínio final
+  const baseUrl = 'https://melhoresdoano-wine.vercel.app/'  
 
   return [
     {
