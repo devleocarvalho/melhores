@@ -13,6 +13,11 @@
 # testing
 /coverage
 
+/public/BingSiteAuth.xml
+BingSiteAuth.xml
+/public/google74d9ba213fc3bb52.html
+google74d9ba213fc3bb52.html
+
 # next.js
 /.next/
 /out/
