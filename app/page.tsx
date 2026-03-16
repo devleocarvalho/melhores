@@ -112,13 +112,13 @@ export default function Page() {
               Conferir Oferta na Amazon
             </a>
           </div>
-          <div className="w-64 h-64 md:w-80 md:h-80 bg-white/5 rounded-3xl backdrop-blur-sm flex items-center justify-center p-6 z-10 relative">
+          <div className={`bg-white/5 rounded-3xl backdrop-blur-sm flex items-center justify-center z-10 relative overflow-hidden transition-all duration-500 ${heroProduct?.id === 'promo-semana-consumidor' ? 'w-full md:w-1/2 h-56 md:h-80 p-0' : 'w-64 h-64 md:w-80 md:h-80 p-6'}`}>
              <Image 
                 src={heroProduct?.img || "/img/placeholder.jpg"} 
                 alt={heroProduct?.nome || "Produto em Destaque"} 
-                width={400} 
-                height={400} 
-                className="w-full h-full object-contain drop-shadow-2xl transition-all duration-500 hover:scale-105" 
+                width={800} 
+                height={800} 
+                className={`w-full h-full drop-shadow-2xl transition-all duration-500 hover:scale-105 ${heroProduct?.id === 'promo-semana-consumidor' ? 'object-cover' : 'object-contain'}`} 
               />
           </div>
 
