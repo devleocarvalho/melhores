@@ -38,26 +38,30 @@ const promoSlide: Produto = {
 const allProducts = categorias.flatMap(cat => cat.produtos);
 const featuredProducts = [promoSlide, ...allProducts.slice(0, 3)];
 
-// Dados das ofertas de lojas da Shopee para a barra lateral
+// Dados das ofertas de produtos da Shopee para a barra lateral
 const shopeeOffers = [
   {
-    name: "GIRLS FITNESS",
-    commission: "até 31%",
+    storeName: "GIRLS FITNESS",
+    productName: "Looks para Academia",
+    image: "/img/shopee-1.jpg", // Substitua pela imagem do produto
     link: "https://s.shopee.com.br/20qvuyuEhs",
   },
   {
-    name: "JCanova Store",
-    commission: "até 24%",
+    storeName: "JCanova Store",
+    productName: "Decoração e Utilidades",
+    image: "/img/shopee-2.jpg", // Substitua pela imagem do produto
     link: "https://s.shopee.com.br/10yOj8y2ja",
   },
   {
-    name: "new&fashion",
-    commission: "até 18%",
+    storeName: "new&fashion",
+    productName: "Moda e Acessórios",
+    image: "/img/shopee-3.jpg", // Substitua pela imagem do produto
     link: "https://s.shopee.com.br/Lihvv0a5W",
   },
   {
-    name: "SP AQUARIOS",
-    commission: "até 14%",
+    storeName: "SP AQUARIOS",
+    productName: "Tudo para Aquarismo",
+    image: "/img/shopee-4.jpg", // Substitua pela imagem do produto
     link: "https://s.shopee.com.br/4VYGtZkidD",
   },
 ];
@@ -211,7 +215,7 @@ export default function Page() {
                         </div>
                         <div className="h-48 flex items-center justify-center mb-6">
                           <Image 
-                            src={item.img || '/img/placeholder.jpg'} 
+                            src={item.img || '/melhoresofertashoy/public/img/shopee.jpeg'} 
                             alt={item.nome} 
                             width={200} 
                             height={200} 
@@ -241,26 +245,55 @@ export default function Page() {
 
         {/* --- Right Sidebar --- */}
         <aside className="hidden xl:block col-span-2 sticky top-28 self-start">
-          <div className="space-y-4">
-            <div className="bg-white rounded-2xl border border-gray-200 shadow-lg p-4">
-              <h4 className="font-bold text-md mb-4 text-zinc-800">Lojas Parceiras Shopee</h4>
-              <div className="space-y-3">
-                {shopeeOffers.map((offer) => (
-                  <a 
-                    key={offer.name} 
-                    href={offer.link} 
-                    target="_blank" 
-                    rel="noopener nofollow sponsored" 
-                    className="block bg-gray-50 hover:bg-gray-100 p-3 rounded-lg transition-colors"
-                  >
-                    <p className="font-bold text-sm text-zinc-700 truncate">{offer.name}</p>
-                    <div className="flex justify-between items-center mt-1">
-                      <span className="text-xs text-green-600 font-semibold bg-green-100 px-2 py-0.5 rounded">Comissão: {offer.commission}</span>
-                      <span className="text-xs font-bold text-orange-500">Ver Loja &rarr;</span>
-                    </div>
-                  </a>
-                ))}
-              </div>
+          <div className="space-y-6">
+            <h4 className="font-bold text-md text-zinc-800 px-1">Achados da Shopee</h4>
+            {shopeeOffers.map((offer) => (
+              <a 
+                key={offer.storeName} 
+                href={offer.link} 
+                target="_blank" 
+                rel="noopener nofollow sponsored" 
+                className="block bg-white rounded-2xl border border-gray-200 shadow-md hover:shadow-xl overflow-hidden transition-all group"
+              >
+                <div className="relative h-32 w-full">
+                    <Image
+                      src={offer.image}
+                      alt={`Oferta da loja ${offer.storeName}`}
+                      layout="fill"
+                      objectFit="cover"
+                      className="group-hover:scale-105 transition-transform duration-300"
+                    />
+                </div>
+                <div className="p-3">
+                  <p className="font-bold text-sm text-zinc-800 truncate mb-1">{offer.productName}</p>
+                  <span className="block w-full bg-[#FF6600] text-white text-center font-bold py-2 rounded-lg text-xs group-hover:bg-orange-600 transition-colors mt-3">
+                    Ver Oferta
+                  </span>
+                </div>
+              </a>
+            ))}
+          </div>
+        </aside>
+      </div>
+
+      <footer className="bg-white border-t border-gray-200 py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="text-2xl font-black text-gray-200 italic mb-8 uppercase tracking-tighter">Melhores Escolhas</div>
+          
+          <p className="text-[11px] text-gray-400 max-w-2xl mx-auto leading-relaxed uppercase font-medium">
+            <strong>Transparência de Afiliado:</strong> Participamos do Programa de Associados da Amazon. Ao clicar em nossos links e realizar uma compra, podemos receber uma pequena comissão. Isso não altera o preço para você e ajuda a manter nossas análises independentes e gratuitas. Preços e disponibilidade sujeitos a alterações pela plataforma oficial.
+          </p>
+          
+          <div className="flex justify-center space-x-8 mt-10 text-[10px] text-gray-400 uppercase font-bold tracking-widest">
+            <a href="#" className="hover:text-orange-600 transition-colors">Política de Privacidade</a>
+            <a href="#" className="hover:text-orange-600 transition-colors">Termos de Uso</a>
+            <a href="#" className="hover:text-orange-600 transition-colors">Contato</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
             </div>
           </div>
         </aside>
