@@ -38,6 +38,30 @@ const promoSlide: Produto = {
 const allProducts = categorias.flatMap(cat => cat.produtos);
 const featuredProducts = [promoSlide, ...allProducts.slice(0, 3)];
 
+// Dados das ofertas de lojas da Shopee para a barra lateral
+const shopeeOffers = [
+  {
+    name: "GIRLS FITNESS",
+    commission: "até 31%",
+    link: "https://s.shopee.com.br/20qvuyuEhs",
+  },
+  {
+    name: "JCanova Store",
+    commission: "até 24%",
+    link: "https://s.shopee.com.br/10yOj8y2ja",
+  },
+  {
+    name: "new&fashion",
+    commission: "até 18%",
+    link: "https://s.shopee.com.br/Lihvv0a5W",
+  },
+  {
+    name: "SP AQUARIOS",
+    commission: "até 14%",
+    link: "https://s.shopee.com.br/4VYGtZkidD",
+  },
+];
+
 export default function Page() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -217,17 +241,27 @@ export default function Page() {
 
         {/* --- Right Sidebar --- */}
         <aside className="hidden xl:block col-span-2 sticky top-28 self-start">
-          <div className="space-y-8">
-            {/* Banner 2 */}
-            <a href="https://amzn.to/3NtrnUW" target="_blank" rel="noopener nofollow sponsored" className="block rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300">
-              <Image 
-                src="/img/banner-vertical-2.jpg" // Substitua pelo caminho da sua imagem
-                alt="Anúncio lateral 2"
-                width={300}
-                height={600}
-                className="w-full object-cover"
-              />
-            </a>
+          <div className="space-y-4">
+            <div className="bg-white rounded-2xl border border-gray-200 shadow-lg p-4">
+              <h4 className="font-bold text-md mb-4 text-zinc-800">Lojas Parceiras Shopee</h4>
+              <div className="space-y-3">
+                {shopeeOffers.map((offer) => (
+                  <a 
+                    key={offer.name} 
+                    href={offer.link} 
+                    target="_blank" 
+                    rel="noopener nofollow sponsored" 
+                    className="block bg-gray-50 hover:bg-gray-100 p-3 rounded-lg transition-colors"
+                  >
+                    <p className="font-bold text-sm text-zinc-700 truncate">{offer.name}</p>
+                    <div className="flex justify-between items-center mt-1">
+                      <span className="text-xs text-green-600 font-semibold bg-green-100 px-2 py-0.5 rounded">Comissão: {offer.commission}</span>
+                      <span className="text-xs font-bold text-orange-500">Ver Loja &rarr;</span>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
           </div>
         </aside>
       </div>
